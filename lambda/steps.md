@@ -1,0 +1,12 @@
+- yarn init -y
+- yarn add -D typescript @types/node
+- tsc --init
+- edit tsconfig
+- edit package.json
+- yarn add fastify aws-lambda-fastify
+- create src/app.ts
+- create src/lambda.ts
+- create @types/aws-lambda-fastify.d.ts
+- mkdir cdk && cd cdk
+- cdk init --language=typescript
+- yarn add @aws-cdk/aws-lambda @aws-cdk/aws-apigatewayv2 @aws-cdk/aws-apigatewayv2-integrations @aws-cdk/aws-cloudfront
